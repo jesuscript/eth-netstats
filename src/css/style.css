@@ -8,7 +8,7 @@ body {
 	font-smooth: auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-  background-color: #fff;
+  background-color: #19181e;
 }
 
 table td {
@@ -36,7 +36,7 @@ table td {
 
 .bg-info,
 .text-info .propagationBox {
-	background: #10a0de;
+	background: #96D1FF;
 }
 
 .bg-warning,
@@ -67,13 +67,6 @@ table td {
 	color: #fff;
 }
 
-.text-gray {
-	color: #777 !important;
-}
-
-.text-orange {
-	color: #ff8a00;
-}
 
 .container-fluid {
 	padding-left: 30px;
@@ -81,7 +74,7 @@ table td {
 }
 
 .stat-holder {
-	background: #fff;
+	background: #19181e;
 	border: 1px solid rgba(0,0,0,0.05);
 }
 
@@ -471,4 +464,28 @@ svg .y.axis .tick:first-child text {
 
 .table-striped>tbody>tr:nth-child(odd) {
   background-color: #f5f5f5;
+}
+
+.text-gray {
+	color: #777 !important;
+}
+
+.text-orange {
+	color: #ffbd6f;
+}
+
+.text-info{
+  color: #96D1FF;
+}
+
+.text-danger{
+  color: #ffc4fa;
+}
+
+.text-warning{
+  color: #fffa83;
+}
+
+.text-success{
+  color: #BBFFB8;
 }

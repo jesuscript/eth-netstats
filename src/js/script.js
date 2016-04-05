@@ -12,11 +12,11 @@
 	$.fn.sparkline.defaults.bar.tooltipOffsetX = 0;
 	$.fn.sparkline.defaults.bar.tooltipFormat = $.spformat('<div class="tooltip-arrow"></div><div class="tooltip-inner">{{prefix}}{{value}} {{suffix}}</div>');
 	$.fn.sparkline.defaults.bar.colorMap = $.range_map({
-		'0:6': '#10a0de',
-		'6:15': '#7bcc3a',
-		'15:40': '#FFD162',
-		'40:60': '#ff8a00',
-		'60:': '#F74B4B'
+		'0:6': '#96D1FF',
+		'6:15': '#bbffb8',
+		'15:40': '#FFFA83',
+		'40:60': '#ffbd6f',
+		'60:': '#FFC4FA'
 	});
 
 	moment.relativeTimeThreshold('s', 60);

@@ -166,11 +166,11 @@ angular.module('netStatsApp.directives', [])
 							tooltipSuffix: '',
 							chartRangeMax: 8000,
 							colorMap: jQuery.range_map({
-								'0:1': '#10a0de',
-								'1:1000': '#7bcc3a',
-								'1001:3000': '#FFD162',
-								'3001:7000': '#ff8a00',
-								'7001:': '#F74B4B'
+								'0:1': '#96d1ff',
+								'1:1000': '#bbffb8',
+								'1001:3000': '#FFFA83',
+								'3001:7000': '#ffbd6f',
+								'7001:': '#FFC4FA'
 							}),
 							tooltipFormatter: function (spark, opt, ms) {
 								var tooltip = '<div class="tooltip-arrow"></div><div class="tooltip-inner">';
@@ -219,11 +219,11 @@ angular.module('netStatsApp.directives', [])
 						width: width,
 						height: 242,
 						fills: {
-							success: '#7BCC3A',
-							info: '#10A0DE',
-							warning: '#FFD162',
-							orange: '#FF8A00',
-							danger: '#F74B4B',
+							success: '#BBFFB8',
+							info: '#96D1FF',
+							warning: '#FFFA83',
+							orange: '#FFBD6F',
+							danger: '#FFC4FA',
 							defaultFill: '#282828'
 						},
 						geographyConfig: {
@@ -314,8 +314,9 @@ angular.module('netStatsApp.directives', [])
 					.interpolate(d3.interpolateRound);
 
 				var color = d3.scale.linear()
-					.domain([1000, 3000, 7000, 10000])
-					.range(["#7bcc3a", "#FFD162", "#ff8a00", "#F74B4B"]);
+					    .domain([1000, 3000, 7000, 10000])
+              .range(["#BBFFB8", "#fffa83", "#ffbd6f", "#ffc4fa"]);
+					//.range(["#bbffb8", "#FFFA83", "#ffbd6f", "#FFC4FA"]);
 
 				var xAxis = d3.svg.axis()
 					.scale(x)
