@@ -258,7 +258,7 @@ api.on('connection', function (spark)
 							data: stats
 						});
 
-						console.success('API', 'STA', 'Stats from:', data.id);
+						console.success('API', 'STA', 'Stats from:', data.id, spark.address.ip);
 					}
 				}
 			});
